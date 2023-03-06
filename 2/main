@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 numValues = 200
 
 
-def readDataFromFile(file1='Канал 1_700nm_0.03.csv', file2='Канал 2_700nm_0.03.csv'):
+def readDataFromFile(file1='Channel_1_700nm_0.03.csv', file2='Channel_2_700nm_0.03.csv'):
     ch1U = []
     ch2U = []
 
