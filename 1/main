@@ -8,13 +8,13 @@ from sklearn.linear_model import LinearRegression
 Ch1_U_mV = []
 Ch2_U_mV = []
 
-with open('Channel_1_700nm_0.03.txt', 'r') as read_obj:
+with open('Channel_1_700nm_0.03csv', 'r') as read_obj:
     csv_reader = reader(read_obj)
     for row in csv_reader:
         row = row[0].split(';')
         Ch1_U_mV.append(row[0])
 
-with open('Channel_2_700nm_0.03.txt', 'r') as read_obj:
+with open('Channel_2_700nm_0.03.csv', 'r') as read_obj:
     csv_reader = reader(read_obj)
     for row in csv_reader:
         row = row[0].split(';')
