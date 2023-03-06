@@ -207,7 +207,7 @@ if __name__ == "__main__":
 
     data_postfix = '700nm_0.03.csv'
     interval_data = read_intervals_data(
-        [f'Канал 1_{data_postfix}', f'Канал 2_{data_postfix}'])
+        [f'Channel_1_{data_postfix}', f'Channel_2_{data_postfix}'])
 
     edge_points_ = [[38, 181], [132, 183]]
     # здесь свои параметры регрессии
